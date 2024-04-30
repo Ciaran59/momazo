@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-
 /* Validador del numero*/
 int contar_digitos(int num) {
     int count = 0;
@@ -67,8 +66,6 @@ void sumanumero(int num1, int num2, Numero Arrsuma)
    }
    printf("El resultado es: "); printnumero(Arrsuma);
 }
-
-
 /* Función que genere un nuevo número como resultado de multiplicar otro por un dígito decimal (iden). */
 
 void multiplinumero(int num, int num2, Numero Arr) {
@@ -87,9 +84,6 @@ void multiplinumero(int num, int num2, Numero Arr) {
     }
      printf("El resultado es: "); printnumero(Arr);
 }
-
-
-
 int main ()
 {
     Numero Creado;
@@ -103,10 +97,6 @@ int main ()
     int opcion;
 
     printf("Hola, bienvenido, que función desea realizar: \n"); 
-    
-
-   
-    
     
         while (opcion != 5)
     {
